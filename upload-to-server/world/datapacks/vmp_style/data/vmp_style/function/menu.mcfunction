@@ -1,0 +1,2 @@
+scoreboard players set @s ks_menu 0
+tellraw @s ["",{"text":"=== VMP Style Menu ===","color":"gold"},{"text":"\n/function vmp_style:set_spawn  - admin set spawn","color":"yellow"},{"text":"\n/function vmp_style:spawn      - teleport to spawn","color":"yellow"},{"text":"\n/function vmp_style:set_home   - set your home","color":"yellow"},{"text":"\n/function vmp_style:home       - teleport home","color":"yellow"},{"text":"\n/function vmp_style:rtp        - random teleport (2m cd)","color":"yellow"},{"text":"\n/function vmp_style:kit_starter - one-time kit","color":"yellow"}]
